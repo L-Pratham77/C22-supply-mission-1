@@ -32,7 +32,7 @@ function setup() {
 	world = engine.world;
 
 	packageBody = Bodies.circle(600, 100 , 5 , 
-								{restitution:1, isStatic:true,friction:1});
+								{restitution:0.7, isStatic:true,friction:1});
 	World.add(world, packageBody);
 	
 
